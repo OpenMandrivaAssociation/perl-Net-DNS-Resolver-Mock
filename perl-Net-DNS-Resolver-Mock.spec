@@ -43,6 +43,6 @@ source. Primarily for use in testing.
 %make_install
 
 %files
-%doc LICENSE META.yml MYMETA.yml README
+%doc LICENSE META.yml README
 %{_mandir}/man3/*
 %perl_vendorlib/*

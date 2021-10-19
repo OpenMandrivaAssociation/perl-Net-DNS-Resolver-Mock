@@ -29,12 +29,12 @@ A subclass of Net::DNS::Resolver which parses a zonefile for it's data
 source. Primarily for use in testing.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%autosetup -p1 -n %{upstream_name}-%{upstream_version}
 
 %build
-%{__perl} Makefile.PL INSTALLDIRS=vendor
+perl Makefile.PL INSTALLDIRS=vendor
 
-%make
+%make_build
 
 %check
 %make test
@@ -44,5 +44,5 @@ source. Primarily for use in testing.
 
 %files
 %doc LICENSE META.yml README
-%{_mandir}/man3/*
+%doc %{_mandir}/man3/*
 %perl_vendorlib/*

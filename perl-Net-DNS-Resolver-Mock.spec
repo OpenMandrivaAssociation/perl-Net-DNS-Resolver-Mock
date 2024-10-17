@@ -10,7 +10,7 @@ Release:    2
 Summary:    Mock a DNS Resolver object for testing
 License:    GPLv1+ or Artistic
 Group:      Development/Perl
-Url:        http://metacpan.org/release/%{upstream_name}
+Url:        https://metacpan.org/release/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: perl(ExtUtils::MakeMaker)

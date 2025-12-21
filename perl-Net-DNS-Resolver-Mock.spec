@@ -13,6 +13,7 @@ Group:      Development/Perl
 Url:        https://metacpan.org/release/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(Net::DNS::Packet)
 BuildRequires: perl(Net::DNS::Question)

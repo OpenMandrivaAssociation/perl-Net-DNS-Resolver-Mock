@@ -1,11 +1,11 @@
 %define upstream_name    Net-DNS-Resolver-Mock
-%define upstream_version 1.20171219
+%define upstream_version 1.20230216
 
 %{?perl_default_filter}
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    2
+Version:	1.20230216 %{upstream_version}
+Release:    1
 
 Summary:    Mock a DNS Resolver object for testing
 License:    GPLv1+ or Artistic

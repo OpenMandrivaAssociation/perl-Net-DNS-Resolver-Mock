@@ -4,7 +4,7 @@
 %{?perl_default_filter}
 
 Name:       perl-%{upstream_name}
-Version:	1.20230216 %{upstream_version}
+Version:	%{upstream_version}
 Release:    1
 
 Summary:    Mock a DNS Resolver object for testing
